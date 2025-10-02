@@ -1,4 +1,4 @@
-
+forked from https://github.com/lillik/magento2-price-decimal
 ### Introduction
 The **«Price Decimal Precision»** Magento 2 extension allows a store administrator to setup a custom display decimal precision for the prices and other currency values (discounts, taxes, sales amounts, etc.) both for the frontend and the backend areas.
 The price display settings are individual per currency and per store.

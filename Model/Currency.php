@@ -24,14 +24,14 @@ class Currency extends MagentoCurrency implements CurrencyInterface
      *
      * @param \Magento\Framework\App\CacheInterface      $appCache
      * @param \Lillik\PriceDecimal\Model\ConfigInterface $moduleConfig
-     * @param null                                       $options
-     * @param null                                       $locale
+     * @param ?string $options
+     * @param ?string $locale
      */
     public function __construct(
         \Magento\Framework\App\CacheInterface $appCache,
         ConfigInterface $moduleConfig,
-        $options = null,
-        $locale = null
+        ?string $options = null,
+        ?string $locale = null
     ) {
         $this->moduleConfig = $moduleConfig;
         parent::__construct($appCache, $options, $locale);
